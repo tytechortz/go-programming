@@ -14,9 +14,9 @@ func (p person) speak() {
 
 func main() {
 	p1 := person{
-		"Chris",
-		"Hedges",
-		45,
+		first: "Chris",
+		last:"Hedges",
+		age: 45,
 	}
 
 	p1.speak()
